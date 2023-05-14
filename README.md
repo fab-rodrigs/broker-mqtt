@@ -1,6 +1,6 @@
 # broker-mqtt
 
-Este é um projeto de voltado para a criação de um broker MQTT virtual.
+Este é um projeto voltado para a criação de um broker MQTT virtual.
 
 MQTT (Message Queuing Telemetry Transport) é um protocolo de comunicação simples para dispositivos IoT. Se baseia em uma separação por tópicos, no qual cada dispositivo inscrito em um determinado tópico receberá as mensagens enviadas para aquele tópico. Um broker MQTT seria o caminho entre as mensagens recebidas e os dispositivos inscritos em seus respectivos tópicos.
 
