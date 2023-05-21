@@ -28,8 +28,8 @@ sudo service mosquitto restart
 
 Agora é possível a visualização e publicação de tópicos entre dispositivos. Pode-se testar utilizando um terminal para visualização e outro para publicação, respectivamente:
 ```sh
-mosquitto_sub -h localhost -t /sw -u (usuario) -P (senha)
+mosquitto_sub -h localhost -t /sw/ -u (usuario) -P (senha)
 ```
 ```sh
-mosquitto_pub -h localhost -t /sw -u (usuario) -P (senha)
+mosquitto_pub -h localhost -t /sw/ -u (usuario) -P (senha) -m (mensagem)
 ```
